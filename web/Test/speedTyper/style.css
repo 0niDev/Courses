@@ -1,0 +1,87 @@
+* {
+    color: aqua;
+    font-family: 'Ysabeau', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(0, 0, 0, 0.9);
+}
+
+#canvas {
+    position: absolute;
+    border-style: solid;
+    border-color: aqua;    
+    width: 99%;
+    height: 99%;
+    text-align: center;
+    align-items: center;
+}
+
+#scoreContainer {
+    position: relative;
+    top: 35%;
+}
+#scoreText {
+    font-size: 25px;
+    text-decoration: underline;
+}
+#score {
+    font-weight: bold;
+    
+}
+
+#outputContainer{
+    position: relative;
+    top: 40%;
+}
+#alphabet {
+    font-size: 90px;
+}
+
+#inputContainer {
+    position: relative;
+    top: 45%;
+}
+
+#input {
+    height:50px;
+    width: 50px;
+    font-size: 40px;
+    text-align: center;
+    border: solid;
+    background-color: aqua;
+    border-color: aqua;
+}
+#input:focus {
+    outline: none;
+    caret-color: transparent;
+    background-color: transparent;
+}
+
+#restart {
+    background-color: rgba(0, 0, 0, 0);
+    width: 100px;
+    height: 30px;
+    border-style: solid;
+    border-color: aqua;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    align-items: center;
+}
+#restart:hover {
+    background-color: aqua;
+    color: black;
+    font-weight: 400;
+}
+
+#timerText {
+    font-size: 25px;
+}
+
+#timer {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,49 @@
+* {
+    color: aqua;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(0, 0, 0, 0.9);
+}
+
+#containter {
+    position: absolute;
+    transform: translateX(50%) translateY(25%);
+    width: 50%;
+    height: 50%;
+    border: solid;
+}
+
+#countArea, #buttons {
+    position: relative;
+    top: 30%;
+    text-align: center;
+}
+
+#numCount {
+    margin: 0% 0% 0% 0%;
+}
+
+#number {
+    font-size: 50px;
+    margin: auto;
+}
+
+#decrease, #increase, #reset{
+    position: relative;
+    width: 15vh;
+    height: 5vh;
+    border-style: solid;
+    border-width: 2px;
+    border-color: aqua;
+    background-color: rgb(0, 0, 0, 0);
+}
+#decrease:hover, #increase:hover, #reset:hover {
+    cursor: pointer;
+    background-color: aqua;
+    font-weight: bold;
+    color: black;
+}
