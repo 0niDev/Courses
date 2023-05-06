@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(0, 0, 0, 0.9);
+}
+button {
+    color: aqua;
+    background-color: gray;
+    border: none;
+    padding: 2%;
+}
+button:active {
+    background-color: black;
+}

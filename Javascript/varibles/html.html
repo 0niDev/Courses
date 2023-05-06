@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varible | Oni</title>
+</head>
+<body>
+    <p>Cart Quantity</p>
+    <button id="show">Show Quantity</button>
+    <button id="add">Add item</button>
+    <button id="2">+2</button>
+    <button id="3">+3</button>
+    <button id="res">Reset Cart</button>
+    
+    <script>
+        const show = document.getElementById("show");
+        const add = document.getElementById("add");
+        const add2 = document.getElementById("2");
+        const add3 = document.getElementById("3");
+        const res = document.getElementById("res");
+
+        let Cart = 0;
+
+        show.addEventListener("click", () => {
+            console.log(Cart)
+        })
+        add.addEventListener("click", () => {
+            Cart++;
+            console.log(Cart)
+        })
+        add2.addEventListener("click", () => {
+            Cart+=2;
+            console.log(Cart)
+        })
+        add3.addEventListener("click", () => {
+            Cart+=3;
+            console.log(Cart)
+        })
+        res.addEventListener("click", () => {
+            Cart = 0;
+            console.log(Cart)
+        })
+        
+        
+    </script>
+</body>
+</html>
