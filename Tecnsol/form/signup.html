@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form | Oni</title>
+</head>
+<body>
+    <h1>Sign up Page</h1>
+    <form action="action.html" method="get" autocomplete="on">
+        <label for="fname">Full name</label>
+        <br>
+        <input type="text" name="fname" id="fname" placeholder="Enter your first name" required>
+        <br><br>
+        <label for="lname">Last name</label>
+        <br>
+        <input type="text" name="lname" id="lname" placeholder="Enter your last name">
+        <br><br>
+        <label for="username">Username</label>
+        <br>
+        <input type="text" id="username" name="username" placeholder="Select a Username" required>
+        <br><br>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Enter your email" required>
+        <br><br>
+        <label for="password">Password</label>
+        <br>
+        <input type="password" id="password" name="password" placeholder="Select a Password" required>
+        <br><br>
+        <p>Please select a gender</p>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender" id="gender" value="female">
+        <label for="gender">Female</label><br>
+        <input type="radio" name="gender" id="rather-not-to-say" value="rather-not-to-say">
+        <label for="rather-not-to-say">Rather not to say</label><br>
+        <br><br>
+        <input type="checkbox" name="terms" id="terms" required>
+        <label for="terms">Do you agree with our <a href="terms.html">terms and conditions</a>?</label>
+        <br><br>
+        <input type="submit" value="sign up">
+    </form>
+    <p>Aleady have a account? <a href="login.html">Login</a>.</p>
+</body>
+</html>
