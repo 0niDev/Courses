@@ -10,11 +10,12 @@
     <h1>Login Page</h1>
     <form action="action.html" method="post">
         <label for="username">Username</label><br>
-        <input type="text" name="username" id="username"><br><br>
+        <input type="text" name="username" id="username" required><br><br>
         <label for="email">Email</label><br>
-        <input type="email" name="email" id="email"><br><br>
+        <input type="email" name="email" id="email" required><br><br>
         <label for="password">Password</label><br>
-        <input type="password" name="password" id="password"><br><br>
+        <input type="password" name="password" id="password" required><br><br>
+        <input type="checkbox" name="stay" id="stay" required><label for="stay">Stay signed in?</label><br><br>
         <button type="submit">Login</button>
         <p>Don't have a account? <a href="signup.html">Create one</a>.</p>
     </form>
