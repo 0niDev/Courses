@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+}
+div {
+    padding: 100px;
+    border: 10px solid red;
+    vertical-align:bottom;
+    max-width: fit-content;
+    align-items: center;
+    text-align: center;
+}
+p {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    height: 100px;
+    width: 1000px;
+    vertical-align:baseline;
+
+}

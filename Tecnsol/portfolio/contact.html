@@ -10,7 +10,6 @@
         *{
             color: aqua;
             font-family: 'Roboto', sans-serif;
-            text-align: center;
         }
         body {
             background-color: rgb(0, 0, 0);
@@ -21,19 +20,38 @@
         #msg {
             margin-top: 7%;
         }
+        img {
+            vertical-align: bottom;
+        }
+        #submit {
+            background-color: black;
+        }
+        #submit:hover {
+            background-color: aqua;
+            color: black;
+        }
     </style>
 </head>
-<body>
+<body style="text-align: center;">
     <div class="main">
         <span><img style="margin-right: 7px;" src="s" alt=""><h2 style="text-decoration: underline;">Contact Information</h2></span>
         <span><img style="margin-right: 7px;" src="Icons/phone.png" alt="" height="19"><b>Phone: </b> +92 3041981859</span><br><br>
-        <span><img style="margin-right: 7px;" src="Icons/gmail.png" alt="" height="19"><b>Email: </b>onidev@engineer.com <sub>(it was a pain to get this Email.)</sub></span><br><br>
         <span><img style="margin-right: 7px;" src="Icons/discord.png" alt="" height="19"><b>Discord: </b>Oni~Chan#3219</span><br><br>
+        <span><img style="margin-right: 7px;" src="Icons/gmail.png" alt="" height="19"><b>Email: </b><a href="mailto:@onidev@engineer.com">onidev@engineer.com</a></span><br><br>
         <span><img style="margin-right: 7px;" src="Icons/github.png" alt="" height="19"><b>Github: </b><a href="https://github.com/OniChan-Baka">OniChan-Baka</a></span><br><br>
         <span><img style="margin-right: 7px;" src="Icons/twitter.png" alt="" height="19"><b>Twitter: </b><a href="https://twitter.com/_OniChanBaka">_OniChanBaka</a></span><br><br>
         <span><img style="margin-right: 7px;" src="Icons/instagram.png" alt="" height="19"><b>Instagram: </b><a href="https://www.instagram.com/onichan._.baka/">onichan._.baka</a></span>
     </div>
-    
-    <div><p style="margin-top: 45%; font-size: 12px"> important msg below</p><h5 id="msg">Don't call me i will not pick up🙂</h5></div>
+    <div style="text-align: left; margin-left: 30%; margin-right: 30%; margin-top: 5%; border: 4px solid aqua; padding: 40px;">
+        <form action="post">
+            <label for="email">From:</label><br>
+            <input type="email" required name="email" id="email" placeholder="Email address" style="padding: 10px; background-color: black; border: 3px solid aqua; outline: none; width: 300px;">
+            <br><br>
+            <label for="msgarea">Your Message:</label><br>
+            <textarea name="msgarea" id="msgarea" cols="82" rows="10" style="padding: 10px; background-color: black; border: 3px solid aqua; outline: none;" required></textarea>
+            <input type="submit" id="submit" value="submit" style="border: 3px solid aqua; outline: none; width: 100%; margin-top: 15px; height: 40px; font-weight: 900; font-size: 15px;">
+        </form>
+    </div>
+    <div><p style="margin-top: 2%; font-size: 12px"> important msg below</p><h5 id="msg">Don't call me i will not pick up🙂</h5></div>
 </body>
 </html>
