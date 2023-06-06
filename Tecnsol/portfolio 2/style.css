@@ -16,8 +16,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: inherit;
     background-origin: border-box;
+    background-attachment:fixed;
+    backdrop-filter: blur(5px);
 }
 table {
     height: 100%;
@@ -75,4 +76,20 @@ h2 {
     border: 3px solid black;
     color: white;
     font-weight: bold;
+}
+.Aimg {
+    height: 140px;
+    width: 715px;
+    margin: 10px;
+}
+#imgContainter {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.icon {
+    height: 20px;
+    vertical-align: middle;
+}
+.links {
+    margin-top: 15px;
 }
