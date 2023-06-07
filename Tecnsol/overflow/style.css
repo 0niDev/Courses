@@ -24,7 +24,7 @@
     margin-right: 1em;
 }
 #div3 {
-    background-color: yellow;
+    background-color: rgb(250, 200, 0);
     height: 470px;
     width: 600px;
     float: left;
@@ -38,4 +38,5 @@ p {
     font-size: 20px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
