@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: black;
+    text-decoration-color: white;
+}
+
+.NavContainer nav{
+    background-color: rgb(64, 145, 206);
+    position: fixed;
+    height: auto;
+    width: 100%;
+    padding: 0;
+}
+.NavContainer nav div {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.NavContainer nav div:not(:first-child, :last-child) {
+    position: relative;
+    top: 20px;
+    font-size: 24px;
+}
+.NavContainer nav div:last-child {
+    position: relative;
+    top: 19px;
+    right: 20px;
+    float: right;
+    vertical-align: center;
+}
+.NavContainer nav div:last-child button{
+    background-color: transparent;
+    border: none;
+}
+.NavContainer nav div:last-child button:hover{
+    cursor: pointer;
+}
+.NavContainer nav div:not(:first-child) a:hover {
+    text-decoration: underline;
+}
+.NavContainer nav div:not(:first-child) a {
+    text-decoration: none;
+}
+.body {
+    padding-top: 7%;
+    text-align: center;
+}

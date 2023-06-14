@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: white;
+}
+.NavContainer nav{
+    background-color: rgb(70, 97, 202);
+    position: fixed;
+    display: block;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+}
+.NavContainer nav ul {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.NavContainer nav ul li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    height: 100px;
+}
+.NavContainer nav ul li:not(:first-child) {
+    position: relative;
+    top: 25px;
+    margin-left: 10px;
+    font-size: 24px;
+
+}
+.NavContainer nav ul li:not(:first-child):hover {
+    background-color: aqua;
+}
+.NavContainer nav ul li a {
+    text-decoration: none;
+    color: white;
+}
