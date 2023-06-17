@@ -1,0 +1,98 @@
+* {
+    color: #fff;
+    box-sizing: border-box;
+}
+*::selection {
+    background-color: darkturquoise;
+    color: #000;
+}
+body {
+    background-color: #000;
+}
+.page {
+    position: relative;
+    top: 103px;
+    background-color: #000;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.welcome {
+    margin: auto;
+    padding-left: 470px;
+    padding-right: 470px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.welcome .border {
+    position: relative;
+    padding: 30px;
+    border: 2px solid darkturquoise;
+}
+.welcome .border .blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../Resources/3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(7px);
+}
+.welcome .border .blur h1 {
+    z-index: 2;
+    font-weight: normal;
+    color: white;
+}
+.picture {
+    position: relative;
+    margin-left: 30px;
+    margin-top: 26px;
+    max-width: 580px;
+    height: 563px;
+    float: left;
+}
+.picture .img img{
+    width: 580px;
+    height: 563px;
+    filter: grayscale();
+    object-fit: cover;
+}
+.picture .img:hover img{
+    filter: brightness(70%);
+}
+.picture .img .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);/* i am sorry but if i don't use this i would have to change the position for each picture box ;-; */
+    text-align: center;
+}
+
+.picture .img .text h1 {
+    font-weight: normal;
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color: darkturquoise;
+}
+.picture .img .text a {
+    position: relative;
+    top: 10px;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 15px;
+    border: 2px solid darkturquoise;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.picture .img .text a:hover {
+    background-color: darkturquoise;
+    color: #000;
+}

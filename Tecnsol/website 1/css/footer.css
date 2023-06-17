@@ -1,0 +1,11 @@
+footer {
+    position: absolute;
+    background-color: #000;
+    top: 90vh;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+footer h5 {
+    color: #777;
+}

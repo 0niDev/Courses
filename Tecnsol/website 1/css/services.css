@@ -1,0 +1,71 @@
+* {
+    color: darkturquoise;
+    box-sizing: border-box;
+}
+body {
+    background-color: #000;
+}
+#services {
+    color: darkturquoise;
+}
+.page {
+    position: relative;
+    top: 103px;
+    background-color: #000;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+.msg {
+    position: relative;
+    top: 50px;
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+    border: 2px solid darkturquoise;
+    /* padding: 100px; */
+}
+.msg h1 {
+    color: #fff;
+    font-size: 40px;
+}
+.servicecontainer {
+    position: relative;
+    top: 120px;
+    float: left;
+}
+.service {
+    margin-left: 30px;
+    max-width: 600px;
+    height: 400px;
+    padding: 80px;
+    background-color: #262626;
+    overflow: hidden;
+    text-align: center;
+}
+.service .imgcontainer {
+    /* background-color: blue; */
+    margin: auto;
+    max-width: 25%;
+    height: 33%;
+    overflow: hidden;
+    object-fit: cover;
+}
+.service .imgcontainer img{
+    width: 60%;
+    /* height: 60%; */
+}
+.service h3 {
+    margin-top: 25px;
+    font-size: 26px;
+}
+.service p {
+    font-weight: 700;
+    margin-top: 20px;
+    color: #777;
+}
+
+.servicecontainer:hover img {
+    width: 70%;
+}
