@@ -1,0 +1,84 @@
+* {
+    color: darkturquoise;
+}
+body {
+    background-color: #000;
+    z-index: -3;
+}
+.page {
+    position: relative;
+    top: 103px;
+    background-color: #000;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
+.page .heading {
+    position: relative;
+    top: 50px;
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+    border: 2px solid darkturquoise;
+
+}
+.page .section {
+    position: relative;
+}
+.page .heading h1 {
+    text-align: center;
+}
+.page .section a .img {
+    position: relative;
+    top: 50px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+}
+.page .section a .img img {
+    position: relative;
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+}
+.page .section a {
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.page .section {
+    position: relative;
+    top: 150px;
+    left: 0px;
+    width: 500px;
+    height: 350px;
+    background-color: #262626;
+    margin-left: 90px;
+    float: left;
+}
+.page .section a p {
+    position: relative;
+    top: 0px;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 900;
+    text-align: center;
+}
+.page .section a h4 {
+    position: relative;
+    top: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+}
+.page .section:hover a img{
+    width: 60%;
+    height: 60%;
+}
+#active {
+    color: darkturquoise;
+}
