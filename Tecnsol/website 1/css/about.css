@@ -1,0 +1,70 @@
+* {
+    color: darkturquoise;
+}
+body {
+    background-color: #000;
+}
+.page {
+    position: relative;
+    top: 103px;
+    background-color: #000;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+.msgcontainer {
+    position: relative;
+    top: 50px;
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+    border: 2px solid darkturquoise;
+}
+.msgcontainer h1 {
+    font-size: 40px;
+    color: #fff;
+}
+nav #active {
+    color: darkturquoise;
+}
+.page .mission {
+    position: relative;
+    top: 120px;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+.page .mission .img {
+    position: absolute;
+    width: 40%;
+    left: 3%;
+    height: 600px;
+}
+.page .mission img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.page .mission .text {
+    position: absolute;
+    left: 50%;
+    height: 100%;
+    width: 40%;
+    text-align: center;
+}
+.page .mission .text h1 {
+    font: 40px;
+    position: relative;
+    top: 19%;
+}
+.page .mission .text p {
+    font-size: 18px;
+    position: relative;
+    top: 35%;
+    line-height: 150%;
+}
+footer {
+    position: absolutes;
+    top: 90vh;
+}
