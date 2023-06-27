@@ -83,3 +83,11 @@ nav .menu .dp:hover a:hover {
 nav .menu .dropdown:hover .dp {
     display: block;
 }
+@media screen and (max-width: 1100px) {
+    .menu {
+        display: none;
+    }
+    .msg {
+        width: 100%;
+    }
+}
