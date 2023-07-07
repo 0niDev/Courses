@@ -1,0 +1,38 @@
+.box {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 70%;
+    background-color: darkturquoise;
+    animation-name: box;
+    animation-duration: 2s;
+    margin: auto;
+}
+@keyframes box {
+    0% {width: 0%;}
+    50% {width: 93%;}
+    100% {width: 0%;}
+}
+.heading {
+    visibility: hidden;
+    animation-name: welcome-title;
+    animation-duration: 1ms;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes welcome-title {
+    100% {visibility: visible;}
+}
+.picture .img .text .underline {
+    top: 60px;
+    position: absolute;
+    width: 100%;
+    height: 7px;
+    background-color: darkturquoise;
+    animation-name: underline-animation;
+    animation-duration: 1s;
+}
+@keyframes underline-animation {
+    0% {width: 0%;}
+    100% {width: 100%;}
+}

@@ -15,6 +15,14 @@ p {
     color: white;
     height: 100px;
     width: 1000px;
+    filter: grayscale();
     vertical-align:baseline;
-
+}
+@keyframes ptag {
+    0% {filter: grayscale();}
+    100% {filter: brightness(50%);}
+}
+p:hover {
+    animation-name: ptag;
+    animation-duration: 1s;
 }
