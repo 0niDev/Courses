@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Data\\Programming\\Courses\\C#\\c#.csproj": {}
+    "c:\\Data\\Programming\\Courses\\C#\\c#.csproj": {}
   },
   "projects": {
-    "C:\\Data\\Programming\\Courses\\C#\\c#.csproj": {
+    "c:\\Data\\Programming\\Courses\\C#\\c#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Data\\Programming\\Courses\\C#\\c#.csproj",
+        "projectUniqueName": "c:\\Data\\Programming\\Courses\\C#\\c#.csproj",
         "projectName": "c#",
-        "projectPath": "C:\\Data\\Programming\\Courses\\C#\\c#.csproj",
+        "projectPath": "c:\\Data\\Programming\\Courses\\C#\\c#.csproj",
         "packagesPath": "C:\\Users\\famal\\.nuget\\packages\\",
-        "outputPath": "C:\\Data\\Programming\\Courses\\C#\\obj\\",
+        "outputPath": "c:\\Data\\Programming\\Courses\\C#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\famal\\AppData\\Roaming\\NuGet\\NuGet.Config"
