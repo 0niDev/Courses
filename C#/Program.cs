@@ -1,58 +1,44 @@
-﻿namespace MyNamespace
-{
-    public class Program
-    {
-        public static void Main()
-        {
-            while (true)
-            {
-                Console.Write("First Number: ");
-                Double a = Convert.ToDouble(Console.ReadLine());
-                Console.Write("Second Number: ");
-                Double b = Convert.ToDouble(Console.ReadLine());
-                Console.Write("Opration: ");
-                string? input = Console.ReadLine();
-                char? op = null;
-                if (input?.Length == 1 && char.TryParse(input, out char parsedChar))
-                {
-                    op = parsedChar;
-                }
-                if (Equals(op, '+'))
-                {
-                    Console.WriteLine("The answer is: " + Add(a, b));
-                }
-                if (Equals(op, '-'))
-                {
-                    Console.WriteLine("The answer is: " + Sub(a, b));
-                }
-                if (Equals(op, '*'))
-                {
-                    Console.WriteLine("The answer is: " + Mul(a, b));
-                }
-                if (Equals(op, '/'))
-                {
-                    Console.WriteLine("The answer is: " + Div(a, b));
-                }
-                Console.WriteLine("");
-            }
+﻿// namespace MyNamespace
+// {
+//     public class Program
+//     {
+//         public static void Main()
+//         {
+//             Console.WriteLine("Hello, world!");
+//             Console.Write("Hello, world! in only one line!");
+//             Console.WriteLine("");
 
-        }
-        public static Double Add(Double a, Double b)
-        {
-            return a + b;
-        }
-        public static Double Sub(Double a, Double b)
-        {
-            return a - b;
-        }
-        public static Double Mul(Double a, Double b)
-        {
-            return a * b;
-        }
-        public static Double Div(Double a, Double b)
-        {
-            return a / b;
-        }
 
-    }
-}
+//             string a = "this is a value that can be changed!";
+//             const string b = "this is a value that can not be changed!";
+//             Console.WriteLine(b + "\n" + a);
+
+
+//             // Type casting or changing of types
+
+//             /* 
+//             Convert.ToString
+//             Convert.ToBool
+//             Convert.ToChar
+//             Convert.ToDouble
+//             Convert.ToInt32, 16, 64
+//             Convert.ToFloat
+//             */
+
+//             // double pi = 3.14;
+//             // int pi_int = Convert.ToInt32(pi);
+//             // Console.WriteLine(pi_int);
+//             // Console.WriteLine(pi_int.GetType());
+
+//             // To generate a random number
+
+//             Random random = new Random();
+
+//             Console.WriteLine(random.Next(1, 7));
+
+//             Console.ReadKey();
+//             Console.Beep();
+
+//         }
+//     }
+// }
