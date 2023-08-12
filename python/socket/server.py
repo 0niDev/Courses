@@ -4,8 +4,9 @@ import threading
 
 def main():
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    s.bind((socket.gethostname(), 9090))
-    s.listen(5)
+    s.bind((socket.gethostbyname(socket.gethostname()), 9090))
+    print("Server is starting on", socket.gethostbyname(socket.gethostname()))
+    s.listen()
     while True:
         conn, addr = s.accept()
         print("Got connection from", addr)
