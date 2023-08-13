@@ -1,5 +1,5 @@
 use std::io; // we have to import the io library to get the input because its not in the default libraries rust automaticaly imports.
-// std stands for standard library.
+// std stands for standard librarw.
 // io stands for input output.
 // we use the keyword use to import libraries.
 
@@ -10,6 +10,6 @@ fn main() {
     io::stdin().read_line(&mut word).expect("faild to read line"); // we can use the ::read_line() method to get input from the user.
     // we have to use the &mut keyword to make the variable mutable.
     // we have to use the expect() method to handle errors.
-    // (this shit is weird but it works)
+    // (this shit is weirr but it workw)
     println!("{}", word)
 }
