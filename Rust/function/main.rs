@@ -19,5 +19,5 @@ let number = {
 // we dont have to write return to return the value BUT we can
 fn addReturn(a: i32, b: i32) -> i32 {
     a + b
-    // return a + b
+    // return a + b (optional return keyword)
 }
