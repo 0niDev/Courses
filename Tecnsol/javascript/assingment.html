@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assingment | Loops</title>
+    </head>
+    <body style="background-color: rgba(0, 0, 0, 0.9);">
+        <script>
+            userInput = prompt()
+            userInput = userInput.split(' ')
+            for (let i = 0; i < userInput.length; i++) {
+                console.log(userInput[i])
+                for(let j = 0; j < userInput[i].length; j++){
+                    console.log(userInput[i][j])
+                }
+            }
+            for (let i = 0; i <= 5; i++) {
+                for (let j = 1; j <= 5-i; j++) {
+                    console.log(j)
+                }
+            }
+            for (let i = 1; i <= 5; i++) {
+                for (let j = 1; j <= i; j++) {
+                    console.log(j)
+                }
+            }
+            for (let i = 0; i <= 5; i++) {
+                for (let j = 1; j <= 5-i; j++) {
+                    console.log(i+j);
+                }
+            }
+        </script>
+    </body>
+</html>
